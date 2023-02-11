@@ -1,0 +1,34 @@
+.mainList {
+  width: 100%;
+}
+
+.listItems {
+  width: 100%;
+  list-style: none;
+  margin: 10px 0px;
+
+  color: #fddfdf;
+  font-weight: 600;
+  border-radius: 10px;
+  border: solid 1px #121111;
+
+  font-size: 22px;
+  padding: 10px;
+}
+.ilItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dustbin {
+  font-size: 20px;
+  margin: 0 20px;
+  color: rgb(183, 172, 183);
+
+  border: none;
+  background: transparent;
+}
+.dustbin:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
